@@ -1,1 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Comment Section</title>
+    <link rel="stylesheet" href="https://cdn.commento.io/css/commento.css"> <!-- Commento CSS -->
+</head>
+<body>
+    <h1>Welcome to My Comment Section</h1>
+    <div id="commento"></div> <!-- Placeholder for Commento comments -->
 
+    <script>
+        // Load Commento
+        var commentoScript = document.createElement('script');
+        commentoScript.src = 'https://cdn.commento.io/js/commento.js'; // Commento JS
+        document.body.appendChild(commentoScript);
+    </script>
+</body>
+</html>
